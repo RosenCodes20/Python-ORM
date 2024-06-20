@@ -1,0 +1,133 @@
+[33mcommit 465a63a6b541f662bf84155581bb5cc23887bd77[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: RosenCodes20 <143969365+RosenCodes20@users.noreply.github.com>
+Date:   Fri Jun 21 01:29:06 2024 +0300
+
+    Added solutions :)
+
+[1mdiff --git a/.idea/.gitignore b/.idea/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..13566b8[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/.gitignore[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m# Default ignored files[m
+[32m+[m[32m/shelf/[m
+[32m+[m[32m/workspace.xml[m
+[32m+[m[32m# Editor-based HTTP Client requests[m
+[32m+[m[32m/httpRequests/[m
+[32m+[m[32m# Datasource local storage ignored files[m
+[32m+[m[32m/dataSources/[m
+[32m+[m[32m/dataSources.local.xml[m
+[1mdiff --git a/.idea/discord.xml b/.idea/discord.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..30bab2a[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/discord.xml[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="DiscordProjectSettings">[m
+[32m+[m[32m    <option name="show" value="ASK" />[m
+[32m+[m[32m    <option name="description" value="" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/django_models_basics_exercise_github.iml b/.idea/django_models_basics_exercise_github.iml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..902aa88[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/django_models_basics_exercise_github.iml[m
+[36m@@ -0,0 +1,27 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<module type="PYTHON_MODULE" version="4">[m
+[32m+[m[32m  <component name="FacetManager">[m
+[32m+[m[32m    <facet type="django" name="Django">[m
+[32m+[m[32m      <configuration>[m
+[32m+[m[32m        <option name="rootFolder" value="$MODULE_DIR$" />[m
+[32m+[m[32m        <option name="settingsModule" value="orm_skeleton/settings.py" />[m
+[32m+[m[32m        <option name="manageScript" value="$MODULE_DIR$/manage.py" />[m
+[32m+[m[32m        <option name="environment" value="&lt;map/&gt;" />[m
+[32m+[m[32m        <option name="doNotUseTestRunner" value="false" />[m
+[32m+[m[32m        <option name="trackFilePattern" value="migrations" />[m
+[32m+[m[32m      </configuration>[m
+[32m+[m[32m    </facet>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="NewModuleRootManager">[m
+[32m+[m[32m    <content url="file://$MODULE_DIR$" />[m
+[32m+[m[32m    <orderEntry type="inheritedJdk" />[m
+[32m+[m[32m    <orderEntry type="sourceFolder" forTests="false" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="PyDocumentationSettings">[m
+[32m+[m[32m    <option name="format" value="PLAIN" />[m
+[32m+[m[32m    <option name="myDocStringFormat" value="Plain" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="TemplatesService">[m
+[32m+[m[32m    <option name="TEMPLATE_CONFIGURATION" value="Django" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</module>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..60cf315[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/inspectionProfiles/Project_Default.xml[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32m<component name="InspectionProjectProfileManager">[m
+[32m+[m[32m  <profile version="1.0">[m
+[32m+[m[32m    <option name="myName" value="Project Default" />[m
+[32m+[m[32m    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">[m
+[32m+[m[32m      <option name="ignoredPackages">[m
+[32m+[m[32m        <value>[m
+[32m+[m[32m          <list size="4">[m
+[32m+[m[32m            <item index="0" class="java.lang.String" itemvalue="Django" />[m
+[32m+[m[32m            <item index="1" class="java.lang.String" itemvalue="psycopg2" />[m
+[32m+[m[32m            <item index="2" class="java.lang.String" itemvalue="psycopg2-binary" />[m
+[32m+[m[32m            <item index="3" class="java.lang.String" itemvalue="asgiref" />[m
+[32m+[m[32m          </list>[m
+[32m+[m[32m        </value>[m
+[32m+[m[32m      </option>[m
+[32m+[m[32m    </inspection_tool>[m
+[32m+[m[32m  </profile>[m
+[32m+[m[32m</component>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..105ce2d[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/inspectionProfiles/profiles_settings.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<component name="InspectionProjectProfileManager">[m
+[32m+[m[32m  <settings>[m
+[32m+[m[32m    <option name="USE_PROJECT_PROFILE" value="false" />[m
+[32m+[m[32m    <version value="1.0" />[m
+[32m+[m[32m  </settings>[m
+[32m+[m[32m</component>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/modules.xml b/.idea/modules.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b11db00[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/modules.xml[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectModuleManager">[m
+[32m+[m[32m    <modules>[m
+[32m+[m[32m      <module fileurl="file://$PROJECT_DIR$/.idea/django_models_basics_exercise_github.iml" filepath="$PROJECT_DIR$/.idea/django_models_basics_exercise_github.iml" />[m
+[32m+[m[32m    </modules>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/vcs.xml b/.idea/vcs.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..94a25f7[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/vcs.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="VcsDirectoryMappings">[m
+[32m+[m[32m    <mapping directory="$PROJECT_DIR$" vcs="Git" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
