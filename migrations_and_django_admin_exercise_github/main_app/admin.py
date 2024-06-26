@@ -1,5 +1,5 @@
 from django.contrib import admin
-from main_app.models import EventRegistration, Movie, Student, Supplier, Course
+from main_app.models import EventRegistration, Movie, Student, Supplier, Course, Order
 # Register your models here.
 
 
@@ -76,3 +76,8 @@ class CourseAdmin(admin.ModelAdmin):
             "fields": ("description",)
         })
     )
+
+
+@admin.register(Order)
+class OrderAdmin(admin.ModelAdmin):
+    pass
