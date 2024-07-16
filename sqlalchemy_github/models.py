@@ -3,7 +3,7 @@ from sqlalchemy.orm import declarative_base, Relationship
 
 DATABASE = "postgresql+psycopg2://postgres-user:postgres-password@localhost/sqlalchemy"
 
-engine = create_engine(DATABASE)
+engine = create_engine(DATABASE, pool_size=10, max_overflow=20)
 
 Base = declarative_base()
 
